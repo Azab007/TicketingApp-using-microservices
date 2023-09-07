@@ -7,7 +7,7 @@ import { OrderCreatedPublisher } from '../events/publisherss/order-created-publi
 import { natsWrapper } from '../nats-wrapper'
 
 const router = express.Router()
-const EXPIRATION_WINDOW_SEC = 15*60
+const EXPIRATION_WINDOW_SEC = 1*60
 router.post('/api/orders',requireAuth,
 [
     body("ticketId").not().isEmpty().withMessage("ticket id must be provided")
