@@ -72,7 +72,7 @@ The application consists of the following microservices:
 The frontend of the project built in ReactJS
 
 2. ### Common microservice
-Cod shared between  all microservices as an npm package. For examble error handling, authentication and event interfaces.
+Code shared between  all microservices as an npm package. For examble error handling, authentication and event interfaces.
 
 3. ### Auth microservice
 Used for register, login and get current user information.
